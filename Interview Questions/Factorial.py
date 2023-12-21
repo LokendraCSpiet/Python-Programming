@@ -14,6 +14,14 @@ def fact_Recursion(number):
     else:
         return number * fact_Recursion(number-1)
 
+# my try
+def factorial(num):
+    if(num == 1):
+        return 1
+    else:
+        num = num * factorial(num - 1)
+    return num
+
 
 
 number = int(input("Enter Number:"))
